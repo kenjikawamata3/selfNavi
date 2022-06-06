@@ -12,7 +12,15 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+// default router comment out
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
-Route::get('/', function () {
-    return view('welcome');
-});
+/**
+ * #TODO APP チュートリアル実装用
+ * ※不要の場合はコメントアウトしてください
+ */
+Route::get('/{any}', function() {
+    return view('app');
+})->where('any', '.*');
