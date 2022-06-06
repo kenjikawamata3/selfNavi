@@ -19,6 +19,9 @@
 #7. build
 >npm run dev
 
+##DB
+・SQliteを使用
+
 ##注意事項
 ・Vueに関する実装をした際には、必ず以下のコマンドを実行して下さい
 >npm run dev
