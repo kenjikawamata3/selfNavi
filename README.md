@@ -21,6 +21,18 @@
 
 ##DB
 ・SQliteを使用
+・テーブル、テストデータ作成※以下コマンドを実行
+>php artisan migrate --seed
+
+##ファイル作成コマンド（メモ）
+1. migration
+>php artisan make:migration [ファイル名]
+2. model
+>php artisan make:model [ファイル名]
+3. seeder
+>php artisan make:seeder [ファイル名]
+4. controller
+>php artisan make:controller [ファイル名]
 
 ##注意事項
 ・Vueに関する実装をした際には、必ず以下のコマンドを実行して下さい

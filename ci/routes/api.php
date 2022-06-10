@@ -28,6 +28,6 @@ Route::post('/tasks', [TaskController::class, 'store']);
 // 4. 詳細表示用API
 Route::get('/tasks/{task}', [TaskController::class, 'show']);
 // 5. 更新用API
-Route::get('/tasks/{task}', [TaskController::class, 'update']);
+Route::put('/tasks/{task}', [TaskController::class, 'update']);
 // 6. 削除用API
 Route::delete('/tasks/{task}', [TaskController::class, 'destroy']);
