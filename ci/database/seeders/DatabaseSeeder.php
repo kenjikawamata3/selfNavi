@@ -20,5 +20,7 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
+        // #TODOアプリ テストデータ作成用
+        $this->call(TasksTableSeeder::class);
     }
 }
