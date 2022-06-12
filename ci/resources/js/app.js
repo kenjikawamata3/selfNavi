@@ -8,6 +8,8 @@
  * #Todoアプリチュートリアル
 */
 import VueRouter from 'vue-router';
+import LoginViewComponent from "./components/LoginViewComponent";
+// 以下チュートリアル用
 import HeaderComponent from "./components/HeaderComponent";
 import TaskListComponent from "./components/TaskListComponent";
 import TaskShowComponent from "./components/TaskShowComponent";
@@ -23,6 +25,15 @@ Vue.use(VueRouter);
 const router = new VueRouter({
     mode: 'history',
     routes: [
+        {
+            path: '/',
+            name: 'login.view',
+            component: LoginViewComponent,
+            meta: {
+                title: 'LOGIN'
+            }
+        },
+        // 以下チュートリアル用
         {
             path: '/tasks',
             name: 'task.list',
