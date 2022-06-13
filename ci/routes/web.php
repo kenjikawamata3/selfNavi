@@ -18,8 +18,7 @@ use Illuminate\Support\Facades\Route;
 // });
 
 /**
- * #TODO APP チュートリアル実装用
- * ※不要の場合はコメントアウトしてください
+ * SPA構築のため画面表示はこちらのみ使用予定
  */
 Route::get('/{any}', function() {
     return view('app');

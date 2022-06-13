@@ -11,9 +11,7 @@
 </head>
 <body>
 <div id="app">
-    <!-- HEADER -->
-    <header-component></header-component>
-
+    <!-- ここにはrouter-viewのみ記載  -->
     <router-view></router-view>
 </div>
 <!-- Scripts -->
